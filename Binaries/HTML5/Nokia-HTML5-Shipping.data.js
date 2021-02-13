@@ -18,7 +18,7 @@ Module.expectedDataFileDownloads++;
     } else {
       throw 'using preloaded data can only be done on a web page or in a web worker';
     }
-    var PACKAGE_NAME = 'C:/Users/morin/Documents/Unreal Projects/Nokia - Copia (2)/Binaries/HTML5/Nokia-HTML5-Shipping.data';
+    var PACKAGE_NAME = 'C:/Users/morin/OneDrive/Desktop/Studio Morinaiz/Games/UE4/NOKIA-3310-Template-UE4/Binaries/HTML5/Nokia-HTML5-Shipping.data';
     var REMOTE_PACKAGE_BASE = 'Nokia-HTML5-Shipping.data';
     if (typeof Module['locateFilePackage'] === 'function' && !Module['locateFile']) {
       Module['locateFile'] = Module['locateFilePackage'];
@@ -149,10 +149,10 @@ Module['FS_createPath']('/Nokia/Content', 'Paks', true, true);
           for (var i = 0; i < files.length; ++i) {
             DataRequest.prototype.requests[files[i].filename].onload();
           }
-              Module['removeRunDependency']('datafile_C:/Users/morin/Documents/Unreal Projects/Nokia - Copia (2)/Binaries/HTML5/Nokia-HTML5-Shipping.data');
+              Module['removeRunDependency']('datafile_C:/Users/morin/OneDrive/Desktop/Studio Morinaiz/Games/UE4/NOKIA-3310-Template-UE4/Binaries/HTML5/Nokia-HTML5-Shipping.data');
 
     };
-    Module['addRunDependency']('datafile_C:/Users/morin/Documents/Unreal Projects/Nokia - Copia (2)/Binaries/HTML5/Nokia-HTML5-Shipping.data');
+    Module['addRunDependency']('datafile_C:/Users/morin/OneDrive/Desktop/Studio Morinaiz/Games/UE4/NOKIA-3310-Template-UE4/Binaries/HTML5/Nokia-HTML5-Shipping.data');
   
     if (!Module.preloadResults) Module.preloadResults = {};
   
@@ -173,6 +173,6 @@ Module['FS_createPath']('/Nokia/Content', 'Paks', true, true);
   }
 
  }
- loadPackage({"files": [{"start": 0, "audio": 0, "end": 53, "filename": "/Manifest_NonUFSFiles_HTML5.txt"}, {"start": 53, "audio": 0, "end": 83, "filename": "/UE4CommandLine.txt"}, {"start": 83, "audio": 0, "end": 26391150, "filename": "/Nokia/Content/Paks/Nokia-HTML5.pak"}], "remote_package_size": 26391150, "package_uuid": "68ab2ff8-3b6b-45ce-9b6b-4eefecf18f47"});
+ loadPackage({"files": [{"start": 0, "audio": 0, "end": 53, "filename": "/Manifest_NonUFSFiles_HTML5.txt"}, {"start": 53, "audio": 0, "end": 83, "filename": "/UE4CommandLine.txt"}, {"start": 83, "audio": 0, "end": 26339471, "filename": "/Nokia/Content/Paks/Nokia-HTML5.pak"}], "remote_package_size": 26339471, "package_uuid": "f07c4a9d-fcd1-4c1a-ba60-b3e1efacd1b0"});
 
 })();
